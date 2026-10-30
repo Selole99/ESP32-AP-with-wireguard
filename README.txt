@@ -53,3 +53,5 @@ NVS 在 0x9000~0xD000，这个脚本不会写该区域，WiFi / WireGuard 配置
    TCP MSS，不依赖路径 MTU 探测。
 4. 服务端 [Peer] 的 AllowedIPs 要包含 隧道地址/32（如 10.66.66.3/32），
    并开启 ip_forward + MASQUERADE。
+
+Complete with AI
