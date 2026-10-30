@@ -57,3 +57,4 @@ Output: build/esp32dn4_wg_relay.bin
    clamps client TCP MSS to the MTU, so no path-MTU discovery is required.
 4. The server-side [Peer] AllowedIPs must include the tunnel address /32
    (e.g. 10.66.66.3/32), with ip_forward + MASQUERADE enabled.
+ Complete with AI
